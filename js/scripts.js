@@ -24,6 +24,6 @@ $(document).ready(function() {
 
         var ticketPrice = newTicket.priceCalc();
 
-        $(".result h3").text(ticketPrice);
+        $(".result").text("$ " + ticketPrice + ".00");
     });
 });
