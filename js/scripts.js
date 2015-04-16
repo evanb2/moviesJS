@@ -4,6 +4,12 @@ var Ticket = {
     }
 };
 
+// var Ticket = {
+//                 priceCalc: function() {
+//                   if ()
+//                 }
+// };
+
 $(document).ready(function() {
     $("form#ticket").submit(function(event) {
         event.preventDefault();
