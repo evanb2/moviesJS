@@ -1,6 +1,6 @@
 var Ticket = {
     priceCalc: function() {
-        return 8 - (this.movie_time * 3) - (this.person_age * 2)
+        return 10 - (this.time * 3) - (this.age * 2)
     }
 };
 
@@ -19,8 +19,8 @@ $(document).ready(function() {
 
         var newTicket = Object.create(Ticket);
 
-        newTicket.person_age = age;
-        newTicket.movie_time = time;
+        newTicket.age = age;
+        newTicket.time = time;
 
         var ticketPrice = newTicket.priceCalc();
 
