@@ -1,15 +1,20 @@
-# Name:
-# Date:
+# Names: Brett Moore & Evan Butler.
+# Date: April 15th, 2015.
 
-Description:
+Description: A simple movie ticket price calculator.
 
 # SetUp and Use
 In order to use this program you will need a browser...NOT IE!
 
 SetUp
-1.
 
-# Copyright (c) 2015 (Name)
+1. Open terminal/console and type 'git clone https://github.com/evanb2/moviesJS.git'
+
+2. Open the moviesJS folder, open the movies.html file your web browser.
+
+3. Select options and click the submit button to calculate the ticket price.
+
+# Copyright (c) 2015 Brett Moore & Evan Butler
 
 # The MIT License (MIT)
 
